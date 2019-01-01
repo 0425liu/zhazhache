@@ -738,3 +738,18 @@ i.arrow-icon {
   color: #FFFFFF;
   background: #4A4A4A;
 }
+
+.time-range .time {
+  border: 1px solid #DDDDDD;
+  border-radius: .453rem;
+  line-height: .907rem;
+  font-size: 16px;
+  width: 3.547rem;
+  text-align: center;
+  font-size: .267rem;
+}
+
+.time-range>div {
+  display: inline-block;
+  color: #0D221A;
+}
