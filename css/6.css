@@ -1,0 +1,124 @@
+.filter {
+  position: fixed;
+  top: 1.2rem;
+  width: 100%;
+  z-index: 6;
+}
+.filter-space {
+  width: 100%;
+  height: .267rem;
+  background: #F8F8F8;
+}
+.filter-ul {
+  padding: .32rem 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.time-wrap {
+  padding: .4rem;
+  background-color: #fff;
+  overflow: hidden;
+  line-height: .907rem;
+  font-size: 15px;
+}
+.time-wrap .f-l {
+  border: 1px solid #DDDDDD;
+  border-radius: .453rem;
+  height: .907rem;
+  padding: 0 .267rem;
+  font-size: 16px;
+  color: #0D221A;
+}
+.time-wrap .title-info {
+  font-size: 18px;
+  color: #0D221A;
+  float: left;
+}
+.time-wrap .title-info i {
+  color: #FBAF34;
+  margin-right: .24rem;
+  font-size: 18px
+}
+.time-wrap .iconfont {
+  color: #3CB371;
+  font-size: 16px;
+}
+.time-wrap .f-r span {
+  margin-left: .667rem;
+  display: inline-block;
+  color: #01B372;
+}
+.time-wrap .f-r span.yellow {
+  color: #FB7C11;
+}
+.time-wrap .f-r span.blue {
+  color: #4B9CF2;
+}
+.filter-ul li {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  font-size: 13px;
+  color: #888B89;
+  line-height: .533rem;
+  border-right: 1px solid #DDDDDD;
+  position: relative;
+}
+i.arrow-icon {
+  border-width: .133rem;
+  display: inline-block;
+  border-style: solid;
+  vertical-align: middle;
+  margin-left: 0.133rem;
+  border-color: #BEBEBE transparent transparent transparent;
+}
+.active i.arrow-icon {
+  transform: rotate(180deg);
+  transform-origin: center 25%;
+}
+.filter-ul li:last-child {
+  border-right: none;
+}
+.filter-ul li.active:after, .filter-ul li.active:before {
+  border-width: 5px;
+  display: inline-block;
+  content: "";
+  border-style: solid;
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+}
+.filter-ul li.active:after {
+  border-color: transparent transparent #fff transparent;
+  bottom: -0.36rem;
+}
+.filter-ul li.active:before {
+  border-color: transparent transparent #DDDDDD transparent;
+  bottom: -0.32rem;
+}
+
+/* filter */
+
+.search-list li, .company-list li {
+  padding-left: .4rem;
+  color: #0D221A;
+}
+.search-list li .clear, .company-list li .clear {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 15px;
+  padding: .4rem .4rem .4rem 0;
+}
+.search-list li .f-r, .company-list li .f-r {
+  font-size: 13px;
+  color: #888B89;
+}
+.search-list li .count {
+  color: #3CB371;
+  font-size: 15px;
+  float: right;
+  margin-right: 1.333rem;
+}
+.search-list li.active, .company-list li.active {
+  background: #F4F4F4;
+  color: #3CB371;
+}
