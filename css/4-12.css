@@ -27,3 +27,11 @@
   background: #F4F4F4;
   color: #3CB371;
 }
+.search-input {
+  background: #FFFFFF;
+  border-radius: 29px;
+  line-height: .773rem;
+  color: #888B89;
+  font-size: 14px;
+  flex: 1;
+}
