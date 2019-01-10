@@ -1,0 +1,29 @@
+.header-mid input {
+  text-align: center;
+}
+.header-mid input::placeholder {
+  color: #888B89;
+}
+.search-list li, .company-list li {
+  padding-left: .4rem;
+  color: #0D221A;
+}
+.search-list li .clear, .company-list li .clear {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 15px;
+  padding: .4rem .4rem .4rem 0;
+}
+.search-list li .f-r, .company-list li .f-r {
+  font-size: 13px;
+  color: #888B89;
+}
+.search-list li .count {
+  color: #3CB371;
+  font-size: 15px;
+  float: right;
+  margin-right: 1.333rem;
+}
+.search-list li.active, .company-list li.active {
+  background: #F4F4F4;
+  color: #3CB371;
+}

@@ -1,0 +1,35 @@
+.company {
+  line-height: 1.173rem;
+  font-size: 15px;
+  color: #0D221A;
+  border-bottom: 1px solid #ddd;
+}
+.item li {
+  width: 50%;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+  color: #0D221A;
+  padding: 1.067rem 0 1.067rem .4rem;
+  float: left;
+}
+.item li:nth-child(2n+1) {
+  border-right: 1px solid #ddd;
+}
+.item .icon-pic {
+  width: 1.253rem;
+}
+.item .icon-pic, .item span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.item span {
+  padding-left: .133rem;
+}
+.search-input {
+  background: #FFFFFF;
+  border-radius: 29px;
+  line-height: .773rem;
+  color: #888B89;
+  font-size: 14px;
+  flex: 1;
+}
