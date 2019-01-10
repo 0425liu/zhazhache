@@ -1,0 +1,53 @@
+.date-wrap {
+  padding-left: .4rem
+}
+.date-wrap h2 {
+  padding: .4rem 0;
+  font-size: 16px;
+  color: #0D221A;
+}
+.date-ul {
+  overflow: hidden;
+  padding-bottom: .533rem;
+  border-bottom: 1px solid #ddd;
+}
+.date-ul li {
+  float: left;
+  width: 25%;
+  padding-right: .4rem;
+}
+.date-ul li span {
+  background: #fff;
+  border: 1px solid #4A4A4A;
+  border-radius: 6px;
+  color: #0D221A;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  line-height: .907rem;
+}
+.date-ul li.active span {
+  color: #FFFFFF;
+  background: #4A4A4A;
+}
+.time-range .time {
+  border: 1px solid #DDDDDD;
+  border-radius: .453rem;
+  line-height: .907rem;
+  font-size: 16px;
+  width: 3.547rem;
+  text-align: center;
+  font-size: .267rem;
+}
+.time-range>div {
+  display: inline-block;
+  color: #0D221A;
+}
+i.arrow-icon {
+  border-width: .133rem;
+  display: inline-block;
+  border-style: solid;
+  vertical-align: middle;
+  margin-left: 0.133rem;
+  border-color: #BEBEBE transparent transparent transparent;
+}
