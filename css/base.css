@@ -2,10 +2,6 @@ body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, figure, form, fieldset, legend, in
   margin: 0;
   padding: 0
 }
-body, input, textarea, button, select, pre, xmp, tt, code, kbd, samp {
-  line-height: 1.5;
-  font-family: tahoma, arial, "Hiragino Sans GB", simsun, sans-serif
-}
 h1, h2, h3, h4, h5, h6, small, big, input, textarea, button, select {
   font-size: 100%
 }
@@ -82,77 +78,10 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  font-family: "Microsoft Yahei", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #4c4948;
-  font-size: 62.5%;
-  line-height: 1;
+  font-family: PingFang-SC-Bold, "Microsoft Yahei", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 12px;
   -webkit-text-size-adjust: none;
-}
-a {
-  color: #4c4948;
-}
-.footer {
-  position: fixed;
-  bottom: 0;
-  height: 5em;
-  width: 100%;
-  background-color: #fff;
-  z-index: 88;
-}
-.footer ul {
-  overflow: hidden;
-}
-.footer ul li {
-  width: 25%;
-  text-align: center;
-  float: left;
-}
-.footer ul li a {
-  height: 12.8%;
-  display: block;
-  height: 5em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: .4em;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-.footer ul li i {
-  width: 2.4em;
-  height: 1.8em;
-  background-size: 100% auto;
-  display: block;
-}
-.footer ul li p {
-  padding-top: .3em;
-  font-size: 1.4em;
-}
-.icon1 {
-  background: url(../images/nav/n-1.png) no-repeat;
-}
-.icon2 {
-  background: url(../images/nav/n-2.png) no-repeat;
-}
-.icon3 {
-  background: url(../images/nav/n-3.png) no-repeat;
-}
-.icon4 {
-  background: url(../images/nav/n-4.png) no-repeat;
-}
-.footer ul li i.active {
-  background-position: 0 -1.8em;
-}
-.container {
-  padding-bottom: 5em;
-}
-.block {
-  background-color: #eeeeef;
-  height: 1em;
-  width: 100%;
 }
 html, body {
   height: 100%;

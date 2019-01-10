@@ -1,0 +1,388 @@
+* {
+  box-sizing: border-box;
+}
+.green-bg {
+  background-color: #3CB371;
+}
+.bg2 {
+  background: #F8F8F8;
+}
+.header {
+  position: fixed;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2rem;
+  height: 1.2rem;
+  padding: 0 .4rem;
+  width: 100%;
+  z-index: 5;
+  background-color: #3CB371;
+}
+.search-top {
+  display: flex;
+  align-items: center;
+}
+.header-left, .header-right {
+  position: absolute;
+  top: 0;
+}
+.search-top .header-left, .search-top .header-right {
+  position: static;
+}
+.header-left.logo i {
+  font-size: 14px;
+}
+.header-left {
+  left: .4rem;
+  margin-right: .253rem;
+}
+.header-right {
+  right: .4rem;
+  margin-left: .253rem;
+}
+.header-right i, .header-left i {
+  font-size: 16px
+}
+.header-mid {
+  flex: 1;
+  text-align: center;
+  display: flex;
+}
+
+/* footer */
+
+.foot {
+  position: fixed;
+  text-align: center;
+  z-index: 5;
+  background: #FFFFFF;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.10);
+  font-size: 10px;
+  color: #ABABAB;
+  bottom: 0;
+  width: 100%;
+}
+.foot ul {
+  align-items: center;
+  height: 1.333rem;
+}
+.foot li {
+  flex: 1;
+}
+.foot li i {
+  font-size: .533rem
+}
+.foot li.active {
+  color: #3CB371
+}
+.container {
+  padding-top: 1.2rem;
+}
+.container-f {
+  padding: 1.2rem 0 1.333rem;
+}
+.w100 {
+  width: 100%;
+}
+a {
+  color: #fff;
+}
+.form input, .form select {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  padding-left: .4rem;
+  font-size: 16px;
+  color: #0D221A;
+  line-height: 1.173333rem;
+  height: 1.173333rem;
+}
+.form input::placeholder, .form select {
+  color: #C9C9C9;
+}
+.form li {
+  margin-top: .533333rem
+}
+
+/* 1 */
+
+.s-role-t {
+  padding-top: .8rem;
+  text-align: center;
+  font-size: 26px;
+}
+.role {
+  text-align: center;
+}
+.role li {
+  padding-top: 1.066667rem
+}
+.role img {
+  width: 3.066667rem;
+  height: 3.066667rem;
+  border-radius: 50%;
+}
+.role p {
+  padding-top: .266667rem;
+  font-size: 17px;
+}
+
+/* 2 */
+
+.wrap {
+  padding-left: .4rem;
+  padding-right: .4rem;
+}
+.btn-sign {
+  background: #3CB371;
+  border-radius: 6px;
+  line-height: 1.333333rem;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 1.6rem;
+}
+.d-flex {
+  display: flex;
+}
+.flex {
+  flex: 1
+}
+.select-flex {
+  flex: 0 0 2.133rem;
+  margin-right: 10px;
+}
+.select-flex select {
+  color: #0D221A;
+}
+
+/* 3 */
+
+.search-input {
+  background: #FFFFFF;
+  border-radius: 29px;
+  line-height: .773rem;
+  color: #888B89;
+  font-size: 14px;
+  flex: 1;
+}
+.sign-ul {
+  display: flex;
+  align-content: space-between;
+  margin: .667rem 0;
+}
+.sign-ul li {
+  flex: 1;
+  padding-top: 1.12rem;
+  padding-bottom: .8rem;
+  text-align: center;
+  background: #4B9CF2;
+}
+.sign-ul li img {
+  width: 1.6rem
+}
+.sign-ul li p {
+  font-size: 15px;
+  margin-top: .493rem
+}
+.sign-ul li.code {
+  background: #4FC081;
+}
+.sign-ul li:first-child {
+  margin-right: .2rem
+}
+.sign-ul li:last-child {
+  margin-left: .2rem
+}
+.sing-info {
+  color: #888B89;
+  margin-top: .4rem;
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+}
+.sing-info dt {
+  border-bottom: 1px dotted #DDDDDD;
+  padding: .267rem .4rem;
+  position: relative;
+}
+.sing-info dt span {
+  color: #3CB371;
+  border: 1px solid #3CB371;
+  border-radius: 19px;
+  line-height: .48rem;
+  padding: 0 .267rem;
+  position: relative;
+}
+
+/* .sing-info dt:before {
+  width: .267rem;
+  height: .533rem;
+  content: "";
+  background-color: #F8F8F8;
+  position: absolute;
+  border-radius: 0 .267rem .267rem 0;
+  box-shadow: 2px 0px 1px 0 rgba(0, 0, 0, 0.20);
+  left: -4px;
+  bottom: -0.267rem;
+} */
+
+.sing-info dd {
+  font-size: 13px;
+  padding: .4rem;
+}
+.sing-info dd h2 {
+  font-size: 19px;
+  color: #3CB371;
+  padding-bottom: .133rem;
+}
+.sing-info dd h2 span {
+  color: #0D221A;
+  font-size: 13px;
+}
+.sing-info dd li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: .133rem;
+}
+
+/* 4 */
+
+.header-mid input {
+  text-align: center;
+}
+.header-mid input::placeholder {
+  color: #888B89;
+}
+.search-list li {
+  padding-left: .4rem;
+  color: #0D221A;
+}
+.search-list li .clear {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 15px;
+  padding: .4rem .4rem .4rem 0;
+}
+.search-list li .f-r {
+  font-size: 13px;
+  color: #888B89;
+}
+.search-list li .count {
+  color: #3CB371;
+  font-size: 15px;
+  float: right;
+  margin-right: 1.333rem;
+}
+.search-list li.active {
+  background: #F4F4F4;
+  color: #3CB371;
+}
+
+/* notice */
+
+.my-notice {
+  background: #FFFFFF;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.10);
+  padding: 1rem;
+  margin-top: .667rem;
+}
+.my-notice img {
+  height: 1.333rem;
+}
+.my-notice p {
+  padding-left: 1.6rem;
+  font-size: 17px;
+  color: #0D221A;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.my-notice p span {
+  background: #F3213A;
+  width: .133rem;
+  height: .133rem;
+  position: absolute;
+  right: -0.067rem;
+  top: 0;
+  border-radius: 50%;
+}
+.login-out {
+  position: fixed;
+  bottom: 2.667rem;
+  width: 100%;
+}
+.login-out-btn {
+  background: #F65468;
+  border-radius: 6px;
+  line-height: 1.333333rem;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.notice-title {
+  background: #fff;
+  padding: .4rem
+}
+.notice-title img {
+  height: .64rem;
+  display: inline-block;
+}
+.notice-title span {
+  display: inline-block;
+  padding-left: .267rem;
+  font-size: 15px;
+  color: #0D221A;
+}
+.notice-info {
+  padding: .4rem;
+}
+.notice-info li {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: .4rem;
+  margin-bottom: .133rem
+}
+.notice-info li p {
+  color: #0D221A;
+  font-size: 15px;
+}
+.notice-info li span {
+  color: #888B89;
+  padding-top: .266rem;
+  display: block;
+}
+.send-btn {
+  border: 1px solid #3CB371;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #3CB371;
+  float: right;
+  line-height: .693rem;
+  padding: 0 .067rem;
+}
+.send-notice {
+  background: #3CB371;
+  line-height: 1.333333rem;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+}
+.edit {
+  color: #DDDDDD;
+  padding-top: .4rem;
+}
+.edit textarea {
+  border: 0;
+  width: 100%;
+  color: #333;
+  font-size: 14px;
+  text-indent: 100px;
+}
+.edit textarea::placeholder {
+  color: #DDDDDD;
+}
