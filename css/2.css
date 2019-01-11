@@ -1,11 +1,11 @@
 .btn-sign {
   background: #3CB371;
   border-radius: 6px;
-  line-height: 1.333333rem;
+  line-height: 50px;
   width: 100%;
   text-align: center;
   font-size: 18px;
-  margin-top: 1.6rem;
+  margin-top: 60px;
 }
 .d-flex {
   display: -webkit-box;
@@ -19,9 +19,9 @@
 }
 .select-flex {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 2.133rem;
-  flex: 0 0 2.133rem;
-  margin-right: 10px;
+  -ms-flex: 0 0 80px;
+  flex: 0 0 80px;
+  margin-right: 5px;
 }
 .select-flex select {
   color: #0D221A;

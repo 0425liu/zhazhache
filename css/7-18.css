@@ -1,14 +1,14 @@
 .my-notice {
   background: #FFFFFF;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.10);
-  padding: 1rem;
-  margin-top: .667rem;
+  padding: 36px;
+  margin-top: 25px;
 }
 .my-notice img {
-  height: 1.333rem;
+  height: 50px;
 }
 .my-notice p {
-  padding-left: 1.6rem;
+  padding-left: 60px;
   font-size: 17px;
   color: #0D221A;
   position: relative;
@@ -17,22 +17,22 @@
 }
 .my-notice p span {
   background: #F3213A;
-  width: .133rem;
-  height: .133rem;
+  width: 5px;
+  height: 5px;
   position: absolute;
-  right: -0.067rem;
+  right: -3px;
   top: 0;
   border-radius: 50%;
 }
 .login-out {
   position: fixed;
-  bottom: 2.667rem;
+  bottom: 100px;
   width: 100%;
 }
 .login-out-btn {
   background: #F65468;
   border-radius: 6px;
-  line-height: 1.333333rem;
+  line-height: 50px;
   width: 100%;
   text-align: center;
   font-size: 18px;

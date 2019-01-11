@@ -1,5 +1,5 @@
 .company {
-  line-height: 1.173rem;
+  line-height: 44px;
   font-size: 15px;
   color: #0D221A;
   border-bottom: 1px solid #ddd;
@@ -9,26 +9,26 @@
   border-bottom: 1px solid #ddd;
   font-size: 15px;
   color: #0D221A;
-  padding: 1.067rem 0 1.067rem .4rem;
+  padding: 40px 0 40px 15px;
   float: left;
 }
 .item li:nth-child(2n+1) {
   border-right: 1px solid #ddd;
 }
 .item .icon-pic {
-  width: 1.253rem;
+  width: 47px;
 }
 .item .icon-pic, .item span {
   display: inline-block;
   vertical-align: middle;
 }
 .item span {
-  padding-left: .133rem;
+  padding-left: 5px;
 }
 .search-input {
   background: #FFFFFF;
   border-radius: 29px;
-  line-height: .773rem;
+  line-height: 29px;
   color: #888B89;
   font-size: 14px;
   flex: 1;

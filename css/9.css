@@ -1,20 +1,20 @@
 .date-wrap {
-  padding-left: .4rem
+  padding-left: 15px
 }
 .date-wrap h2 {
-  padding: .4rem 0;
+  padding: 15px 0;
   font-size: 16px;
   color: #0D221A;
 }
 .date-ul {
   overflow: hidden;
-  padding-bottom: .533rem;
+  padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
 .date-ul li {
   float: left;
   width: 25%;
-  padding-right: .4rem;
+  padding-right: 15px;
 }
 .date-ul li span {
   background: #fff;
@@ -24,7 +24,7 @@
   display: inline-block;
   text-align: center;
   width: 100%;
-  line-height: .907rem;
+  line-height: 34px;
 }
 .date-ul li.active span {
   color: #FFFFFF;
@@ -32,22 +32,22 @@
 }
 .time-range .time {
   border: 1px solid #DDDDDD;
-  border-radius: .453rem;
-  line-height: .907rem;
+  border-radius: 16px;
+  line-height: 34px;
   font-size: 16px;
-  width: 3.547rem;
+  width: 133px;
   text-align: center;
-  font-size: .267rem;
+  font-size: 10px;
 }
 .time-range>div {
   display: inline-block;
   color: #0D221A;
 }
 i.arrow-icon {
-  border-width: .133rem;
+  border-width: 5px;
   display: inline-block;
   border-style: solid;
   vertical-align: middle;
-  margin-left: 0.133rem;
+  margin-left: 5px;
   border-color: #BEBEBE transparent transparent transparent;
 }

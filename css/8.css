@@ -1,25 +1,25 @@
 .notice-title {
   background: #fff;
-  padding: .4rem
+  padding: 15px
 }
 .notice-title img {
-  height: .64rem;
+  height: 24px;
   display: inline-block;
 }
 .notice-title span {
   display: inline-block;
-  padding-left: .267rem;
+  padding-left: 10px;
   font-size: 15px;
   color: #0D221A;
 }
 .notice-info {
-  padding: .4rem;
+  padding: 15px;
 }
 .notice-info li {
   background: #FFFFFF;
   border-radius: 10px;
-  padding: .4rem;
-  margin-bottom: .133rem
+  padding: 15px;
+  margin-bottom: 5px
 }
 .notice-info li p {
   color: #0D221A;
@@ -27,6 +27,6 @@
 }
 .notice-info li span {
   color: #888B89;
-  padding-top: .266rem;
+  padding-top: 10px;
   display: block;
 }

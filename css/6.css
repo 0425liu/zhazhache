@@ -1,31 +1,31 @@
 .filter {
   position: fixed;
-  top: 1.2rem;
+  top: 45px;
   width: 100%;
   z-index: 6;
 }
 .filter-space {
   width: 100%;
-  height: .267rem;
+  height: 10px;
   background: #F8F8F8;
 }
 .filter-ul {
-  padding: .32rem 0;
+  padding: 12px 0;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
 .time-wrap {
-  padding: .4rem;
+  padding: 15px;
   background-color: #fff;
   overflow: hidden;
-  line-height: .907rem;
+  line-height: 34px;
   font-size: 15px;
 }
 .time-wrap .f-l {
   border: 1px solid #DDDDDD;
-  border-radius: .453rem;
-  height: .907rem;
-  padding: 0 .267rem;
+  border-radius: 16px;
+  height: 34px;
+  padding: 0 10px;
   font-size: 16px;
   color: #0D221A;
 }
@@ -36,7 +36,7 @@
 }
 .time-wrap .title-info i {
   color: #FBAF34;
-  margin-right: .24rem;
+  margin-right: 9px;
   font-size: 18px
 }
 .time-wrap .iconfont {
@@ -44,7 +44,7 @@
   font-size: 16px;
 }
 .time-wrap .f-r span {
-  margin-left: .667rem;
+  margin-left: 25px;
   display: inline-block;
   color: #01B372;
 }
@@ -60,16 +60,16 @@
   text-align: center;
   font-size: 13px;
   color: #888B89;
-  line-height: .533rem;
+  line-height: 20px;
   border-right: 1px solid #DDDDDD;
   position: relative;
 }
 i.arrow-icon {
-  border-width: .133rem;
+  border-width: 5px;
   display: inline-block;
   border-style: solid;
   vertical-align: middle;
-  margin-left: 0.133rem;
+  margin-left: 5px;
   border-color: #BEBEBE transparent transparent transparent;
 }
 .active i.arrow-icon {
@@ -90,23 +90,23 @@ i.arrow-icon {
 }
 .filter-ul li.active:after {
   border-color: transparent transparent #fff transparent;
-  bottom: -0.36rem;
+  bottom: -13px;
 }
 .filter-ul li.active:before {
   border-color: transparent transparent #DDDDDD transparent;
-  bottom: -0.32rem;
+  bottom: -12px;
 }
 
 /* filter */
 
 .search-list li, .company-list li {
-  padding-left: .4rem;
+  padding-left: 15px;
   color: #0D221A;
 }
 .search-list li .clear, .company-list li .clear {
   border-bottom: 1px solid #eeeeee;
   font-size: 15px;
-  padding: .4rem .4rem .4rem 0;
+  padding: 15px 15px 15px 0;
 }
 .search-list li .f-r, .company-list li .f-r {
   font-size: 13px;
@@ -116,7 +116,7 @@ i.arrow-icon {
   color: #3CB371;
   font-size: 15px;
   float: right;
-  margin-right: 1.333rem;
+  margin-right: 50px;
 }
 .search-list li.active, .company-list li.active {
   background: #F4F4F4;

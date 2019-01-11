@@ -100,9 +100,9 @@ html, body {
   text-align: center;
   font-size: 16px;
   color: #fff;
-  line-height: 1.2rem;
-  height: 1.2rem;
-  padding: 0 .4rem;
+  line-height: 45px;
+  height: 45px;
+  padding: 0 15px;
   width: 100%;
   z-index: 5;
   background-color: #3CB371;
@@ -122,12 +122,12 @@ html, body {
   font-size: 14px;
 }
 .header-left {
-  left: .4rem;
-  margin-right: .253rem;
+  left: 30px;
+  margin-right: 20px;
 }
 .header-right {
-  right: .4rem;
-  margin-left: .253rem;
+  right: 30px;
+  margin-left: 20px;
 }
 .header-right i, .header-left i {
   font-size: 16px
@@ -155,7 +155,7 @@ html, body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 1.333rem;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex
@@ -166,19 +166,19 @@ html, body {
   flex: 1;
 }
 .foot li i {
-  font-size: .533rem
+  font-size: 20px
 }
 .foot li.active {
   color: #3CB371
 }
 .container {
-  padding-top: 1.2rem;
+  padding-top: 45px;
 }
 .container-filter {
-  padding-top: 4.347rem
+  padding-top: 163px
 }
 .container-f {
-  padding: 1.2rem 0 1.333rem;
+  padding: 45px 0 50px;
 }
 .w100 {
   width: 100%;
@@ -190,19 +190,19 @@ a {
   background: #FFFFFF;
   border: 1px solid #DDDDDD;
   border-radius: 6px;
-  padding-left: .4rem;
+  padding-left: 15px;
   font-size: 16px;
   color: #0D221A;
-  line-height: 1.173333rem;
-  height: 1.173333rem;
+  line-height: 44px;
+  height: 44px;
 }
 .form input::placeholder, .form select {
   color: #C9C9C9;
 }
 .form li {
-  margin-top: .533333rem
+  margin-top: 20px
 }
 .wrap {
-  padding-left: .4rem;
-  padding-right: .4rem;
+  padding-left: 15px;
+  padding-right: 15px;
 }
