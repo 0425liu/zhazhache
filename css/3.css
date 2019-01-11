@@ -1,7 +1,7 @@
 .search-input {
   background: #FFFFFF;
   border-radius: 29px;
-  line-height: .773rem;
+  line-height: 29px;
   color: #888B89;
   font-size: 14px;
   flex: 1;
@@ -9,49 +9,49 @@
 .sign-ul {
   display: flex;
   align-content: space-between;
-  margin: .667rem 0;
+  margin: 25px 0;
 }
 .sign-ul li {
   flex: 1;
-  padding-top: 1.12rem;
-  padding-bottom: .8rem;
+  padding-top: 42px;
+  padding-bottom: 30px;
   text-align: center;
   background: #4B9CF2;
 }
 .sign-ul li img {
-  height: 1.5rem
+  height: 60px
 }
 .sign-ul li p {
   font-size: 15px;
-  margin-top: .493rem
+  margin-top: 18px
 }
 .sign-ul li.code {
   background: #4FC081;
 }
 .sign-ul li:first-child {
-  margin-right: .2rem
+  margin-right: 8px
 }
 .sign-ul li:last-child {
-  margin-left: .2rem
+  margin-left: 8px
 }
 .sing-info {
   color: #888B89;
-  margin-top: .4rem;
+  margin-top: 15px;
   background: #FFFFFF;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.20);
   border-radius: 10px;
 }
 .sing-info dt {
   border-bottom: 1px dotted #DDDDDD;
-  padding: .267rem .4rem;
+  padding: 10px 15px;
   position: relative;
 }
 .sing-info dt span {
   color: #3CB371;
   border: 1px solid #3CB371;
   border-radius: 19px;
-  line-height: .48rem;
-  padding: 0 .267rem;
+  line-height: 18px;
+  padding: 0 10px;
   position: relative;
 }
 
@@ -69,12 +69,12 @@
 
 .sing-info dd {
   font-size: 13px;
-  padding: .4rem;
+  padding: 15px;
 }
 .sing-info dd h2 {
   font-size: 19px;
   color: #3CB371;
-  padding-bottom: .133rem;
+  padding-bottom: 5px;
 }
 .sing-info dd h2 span {
   color: #0D221A;
@@ -84,5 +84,5 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-top: .133rem;
+  padding-top: 5px;
 }

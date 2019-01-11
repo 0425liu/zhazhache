@@ -1,7 +1,7 @@
 .search-input {
   background: #FFFFFF;
   border-radius: 29px;
-  line-height: .773rem;
+  line-height: 29px;
   color: #888B89;
   font-size: 14px;
   flex: 1;
@@ -10,13 +10,13 @@
   text-align: center;
 }
 .search-list li, .company-list li {
-  padding-left: .4rem;
+  padding-left: 15px;
   color: #0D221A;
 }
 .search-list li .clear, .company-list li .clear {
   border-bottom: 1px solid #eeeeee;
   font-size: 15px;
-  padding: .4rem .4rem .4rem 0;
+  padding: 15px 15px 15px 0;
 }
 .search-list li .f-r, .company-list li .f-r {
   font-size: 13px;
@@ -26,7 +26,7 @@
   color: #3CB371;
   font-size: 15px;
   float: right;
-  margin-right: 1.333rem;
+  margin-right: 50px;
 }
 .search-list li.active, .company-list li.active {
   background: #F4F4F4;

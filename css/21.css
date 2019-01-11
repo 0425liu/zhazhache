@@ -1,16 +1,16 @@
 .histroy_info {
   position: fixed;
-  top: 1.2rem;
+  top: 45px;
   width: 100%;
 }
 .histroy_info dt, .enter-info dt {
-  line-height: .907rem;
+  line-height: 34px;
   background: #F8F8F8;
   color: #0D221A;
   font-size: 15px;
 }
 .histroy_info dt span, .enter-info dt span {
-  margin-left: .267rem;
+  margin-left: 10px;
 }
 .histroy_info dt .f-r, .enter-info dt .f-r {
   font-size: 12px;
@@ -18,7 +18,7 @@
 }
 .histroy_info dd, .enter-info dd {
   color: #888B89;
-  padding: .133rem .4rem;
-  line-height: .533rem;
+  padding: 5px 15px;
+  line-height: 20px;
   background-color: #fff;
 }

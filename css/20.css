@@ -1,6 +1,6 @@
 .edit {
   color: #DDDDDD;
-  padding-top: .4rem;
+  padding-top: 15px;
   position: relative;
 }
 .edit textarea {
@@ -15,13 +15,13 @@
 }
 .edit i {
   position: absolute;
-  top: .4rem;
+  top: 15px;
   left: 0;
   font-size: 14px;
 }
 .send-notice {
   background: #3CB371;
-  line-height: 1.333333rem;
+  line-height: 50px;
   width: 100%;
   text-align: center;
   font-size: 18px;
